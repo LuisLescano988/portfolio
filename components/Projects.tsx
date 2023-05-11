@@ -1,9 +1,7 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import { Link as Llink } from 'react-scroll'
 import Link from 'next/link'
-import { RiArrowUpCircleLine } from 'react-icons/ri'
 import { BsGithub, BsArrowUpRightSquare } from 'react-icons/bs'
 
 
@@ -33,7 +31,7 @@ const projects = [
 
 const Projects = () => {
     return (
-        <section id='projects' className='md:mt-24'>            
+        <section id='projects' className='md:mt-16'>
             <h1 className='text-center font-bold text-4xl mb-10'>
                 Projects
                 <hr className="w-16 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
@@ -75,16 +73,6 @@ const Projects = () => {
                         </div>)
                 })}
             </div>
-            <Llink className='flex flex-col hover:translate-y-1 transition-transform cursor-pointer items-left text-5xl md:pt-16 pt-6 mt-0'
-                to='home'
-                activeClass="active"
-                spy={true}
-                smooth={true}
-                offset={1}
-                duration={700}>
-                <RiArrowUpCircleLine
-                />
-            </Llink>
         </section>
     )
 }

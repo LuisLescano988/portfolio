@@ -1,7 +1,6 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import { RiArrowDownCircleLine } from 'react-icons/ri'
 import { Link } from 'react-scroll'
 
 
@@ -22,17 +21,7 @@ const Landing = () => {
                         Writing code to find simple solutions for complex problems.
                     </p>
                 </div>
-            </div>
-            <Link className='flex flex-col hover:translate-y-1 transition-transform cursor-pointer items-left text-5xl mt-0 pb-20'
-                to='projects'                
-                activeClass="active"                
-                spy={true}
-                smooth={true}
-                offset={1}
-                duration={700}>
-                <RiArrowDownCircleLine                
-                />
-            </Link>
+            </div>            
         </section>
     )
 }

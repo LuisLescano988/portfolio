@@ -55,7 +55,7 @@ const Navbar = () => {
                                 activeClass='active'
                                 spy={true}
                                 smooth={true}
-                                offset={1}
+                                offset={-90}
                                 duration={500}
                                 onClick={() => setNavbar(!navbar)}
                                 >{item.label}</Link>

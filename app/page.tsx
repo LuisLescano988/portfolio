@@ -1,6 +1,7 @@
 import About from "@/components/About"
 import Landing from "@/components/Landing"
 import Projects from "@/components/Projects"
+import Footer from "@/components/Footer"
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Landing/>
       <Projects/>
       <About/>
+      <Footer/>
     </main>
   )
 }
