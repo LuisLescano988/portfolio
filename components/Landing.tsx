@@ -23,7 +23,7 @@ const Landing = () => {
                     </p>
                 </div>
             </div>
-            <Link className='flex flex-col items-left text-5xl mt-0 pb-20'
+            <Link className='flex flex-col hover:translate-y-1 transition-transform cursor-pointer items-left text-5xl mt-0 pb-20'
                 to='projects'                
                 activeClass="active"                
                 spy={true}

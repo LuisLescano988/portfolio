@@ -1,8 +1,10 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import { Link } from 'react-scroll'
+import { Link as Llink } from 'react-scroll'
+import Link from 'next/link'
 import { RiArrowUpCircleLine } from 'react-icons/ri'
+import { BsGithub, BsArrowUpRightSquare } from 'react-icons/bs'
 
 
 const projects = [
@@ -31,20 +33,10 @@ const projects = [
 
 const Projects = () => {
     return (
-        <section id='projects' className='mb-40 md:mt-20'>
-            <br />
-            <Link className='flex flex-col items-left text-5xl md:pt-16 pt-6 mt-0'
-                to='home'                
-                activeClass="active"                
-                spy={true}
-                smooth={true}
-                offset={1}
-                duration={700}>
-                <RiArrowUpCircleLine                
-                />
-            </Link>
+        <section id='projects' className='md:mt-24'>            
             <h1 className='text-center font-bold text-4xl mb-10'>
                 Projects
+                <hr className="w-16 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
             </h1>
             <div className='flex flex-col space-y-12'>
                 {projects.map((project, idx) => {
@@ -52,25 +44,47 @@ const Projects = () => {
                         <div key={idx}>
                             <div className='flex flex-col md:flex-row md:space-x-10'>
                                 <div className='md:w-1/2'>
-                                    <Image
-                                    src={project.image}
-                                    alt=''
-                                    width={400}
-                                    height={400}
-                                    className='rounded-xl shadow-xl hover:opacity-70'/>
+                                    <Link href={project.link} target='_blank'>
+                                        <Image
+                                            src={project.image}
+                                            alt=''
+                                            width={400}
+                                            height={400}
+                                            className='rounded-xl shadow-xl hover:opacity-70' />
+                                    </Link>
                                 </div>
-                                <div className='md:w-1/2'>
+                                <div className='md:w-1/2 flex flex-col justify-between'>
                                     <h2 className='text-4xl mb-4'>
                                         {project.name}
                                     </h2>
                                     <p className='text-xl'>
                                         {project.description}
                                     </p>
+                                    <div className='flex flex-row w-full mt-4 align-bottom space-x-3'>
+                                        <Link href={project.github} target='_blank'>
+                                            <BsGithub size={35}
+                                                className='hover:translate-y-2 transition-transform cursor-pointer' />
+                                        </Link>
+                                        <Link href={project.link} target='_blank'>
+                                            <BsArrowUpRightSquare size={35}
+                                                className='hover:translate-y-2 transition-transform cursor-pointer' />
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>)
                 })}
             </div>
+            <Llink className='flex flex-col hover:translate-y-1 transition-transform cursor-pointer items-left text-5xl md:pt-16 pt-6 mt-0'
+                to='home'
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={1}
+                duration={700}>
+                <RiArrowUpCircleLine
+                />
+            </Llink>
         </section>
     )
 }
