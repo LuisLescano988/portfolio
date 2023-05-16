@@ -31,7 +31,7 @@ const projects = [
 
 const Projects = () => {
     return (
-        <section id='projects' className='md:mt-16'>
+        <section id='projects' className='dark:text-stone-400 md:mt-16 md:mb-36'>
             <h1 className='text-center font-bold text-4xl mb-10'>
                 Projects
                 <hr className="w-16 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
@@ -52,9 +52,9 @@ const Projects = () => {
                                     </Link>
                                 </div>
                                 <div className='md:w-1/2 flex flex-col justify-between'>
-                                    <h2 className='text-4xl mb-4'>
+                                    <h4 className='text-4xl mb-4'>
                                         {project.name}
-                                    </h2>
+                                    </h4>
                                     <p className='text-xl'>
                                         {project.description}
                                     </p>
