@@ -26,7 +26,7 @@ const projects = [
         description: 'Simple mini map with functions to create and delete projects',
         image: '/geomaplocation.jpeg',
         github: 'https://github.com/LuisLescano988/real-state-geolocation',
-        link: 'https://vercel.com/luislescano988/real-state-geolocation'
+        link: 'https://real-state-geolocation.vercel.app/'
     },
 ]
 
