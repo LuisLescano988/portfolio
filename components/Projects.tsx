@@ -24,7 +24,7 @@ const projects = [
     {
         name: 'Mini Geolocation',
         description: 'Simple mini map with functions to create and delete projects',
-        image: '/fittnet.jpeg',
+        image: '/geomaplocation.jpeg',
         github: 'https://github.com/LuisLescano988/real-state-geolocation',
         link: 'https://vercel.com/luislescano988/real-state-geolocation'
     },
