@@ -22,11 +22,11 @@ const projects = [
         link: 'https://fullstack-video-games.vercel.app/'
     },
     {
-        name: 'Fittnet Gyms',
-        description: 'Fittnet is an online commercial network that allows its members access to any of the gyms in the network, through a monthly subscription. ',
-        image: '/fittnet.jpeg',
-        github: 'https://github.com/LuisLescano988/PF-FittNet-G11-v1.2/',
-        link: 'https://fittnet-g11.vercel.app/'
+        name: 'Mini Geolocation',
+        description: 'Simple mini map with functions to create and delete projects',
+        image: '/geomaplocation.jpeg',
+        github: 'https://github.com/LuisLescano988/real-state-geolocation',
+        link: 'https://real-state-geolocation.vercel.app/'
     },
 ]
 
