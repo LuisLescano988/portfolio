@@ -9,7 +9,7 @@ const Landing = () => {
         <section id='home'>
             <div className='flex flex-col dark:text-stone-400 text-center items-center justify-center  md:py-36 pt-28 md:mb-36 md:flex-row md:space-x-4 md:text-left'>
                 <div className='md:w-1/3 md:mt-3'>
-                    <Image className='rounded-full' src='/headshot.jpg' priority={true} alt='' width={290} height={290} />
+                    <Image className='rounded-full' src='/headshot.jpeg' priority={true} alt='' width={290} height={290} />
                 </div>
                 <div className="md:mt-2 md:w-3/5 py-20">
                     <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-5xl">Hi, I&#39;m Luis Lescano!</h1>
