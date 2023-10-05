@@ -31,7 +31,7 @@ const projects = [
     {
         name: 'BulkClicker',
         description: 'Micro game maded with React to handle states and component fluency',
-        image: '/geomaplocation.jpeg',
+        image: '/bulkclicker.jpg',
         github: 'https://github.com/LuisLescano988/bulk-clicker',
         link: 'https://bulk-clicker.vercel.app'
     },
