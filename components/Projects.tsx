@@ -7,6 +7,13 @@ import { BsGithub, BsArrowUpRightSquare } from 'react-icons/bs'
 
 const projects = [
     {
+        name: 'Restaurant Web',
+        description: 'Full responsive restaurant web, with images and menus storage. Provide service for contact with clients with social media, and online menus for the restaurant clients.',
+        image: '/bulkclicker.jpg',
+        github: 'https://github.com/LuisLescano988/portfolio',
+        link: 'https://new-menu-arca.vercel.app/'
+    },    
+    {
         name: 'Fittnet Gyms',
         description: 'Fittnet is an online commercial network that allows its members access to any of the gyms in the network, through a monthly subscription. ',
         image: '/fittnet.jpeg',
@@ -20,13 +27,6 @@ const projects = [
         image: '/VG.jpg',
         github: 'https://github.com/LuisLescano988/Henry-VideoGames',
         link: 'https://fullstack-video-games.vercel.app/'
-    },
-    {
-        name: 'BulkClicker',
-        description: 'Micro game maded with React to handle states and component fluency',
-        image: '/bulkclicker.jpg',
-        github: 'https://github.com/LuisLescano988/bulk-clicker',
-        link: 'https://bulk-clicker.vercel.app'
     },
 ]
 
