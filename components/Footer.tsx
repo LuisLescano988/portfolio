@@ -32,7 +32,7 @@ const Footer = () => {
                         />
                     </a>
                     <a
-                        href="mailto:largelescano@gmail.com"
+                        href="mailto:alfredoluislescano@gmail.com"
                         rel="noreferrer"
                         target="_blank"
                     >                        
