@@ -9,17 +9,17 @@ const projects = [
     {
         name: 'Restaurant Web',
         description: 'Full responsive restaurant web, with images and menus storage. Provide service for contact with clients with social media, and online menus for the restaurant clients.',
-        image: '/bulkclicker.jpg',
-        github: 'https://github.com/LuisLescano988/portfolio',
+        image: '/mestixaPf.jpeg',
+        github: 'https://github.com/LuisLescano988/menuMestixa',
+        link: 'https://www.mestixarestaurant.com/'
+    },  
+    {
+        name: 'Arca Online Menu',
+        description: 'Interactive SPA, which offers its menu variety through a group of interactive selectors, to know the meals and beverages in a fast and intuitive way. It is mainly designed to fit mobile screens, taking the maximum care of the design requirements demanded by the client.',
+        image: '/arcaPf.jpeg',
+        github: 'https://github.com/LuisLescano988/newMenuArca',
         link: 'https://new-menu-arca.vercel.app/'
     },    
-    {
-        name: 'Fittnet Gyms',
-        description: 'Fittnet is an online commercial network that allows its members access to any of the gyms in the network, through a monthly subscription. ',
-        image: '/fittnet.jpeg',
-        github: 'https://github.com/LuisLescano988/PF-FittNet-G11-v1.2/',
-        link: 'https://fittnet-g11.vercel.app/'
-    },
     {
         name: 'Video Games Trends',
         description:
